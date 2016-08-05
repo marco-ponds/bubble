@@ -27,7 +27,7 @@ io.on('connection', function(socket) {
 
   socket.on('file', function() {
     // someone is sending me a file
-  })
+  });
 
   socket.on('disconnect', function() {
     // user disconnected
