@@ -1,8 +1,26 @@
-<form id        =  "uploadForm"
-     enctype   =  "multipart/form-data"
-     action    =  "/upload"
-     method    =  "post"
->
-<input type="file" name="fileupload" />
-<input type="submit" value="Upload" name="submit">
-</form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Bubble</title>
+        <script type="text/javascript">
+            window.$ = window.jQuery = require("./bower_components/jquery/dist/jquery.min");
+        </script>
+        <script src="bower_components/react/react.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/react/react-dom.js"></script>
+        <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <!--
+        <form id = "uploadForm" enctype = "multipart/form-data" action = "/upload" method = "post">
+            <input type="file" name="fileupload" />
+            <input type="submit" value="Upload" name="submit">
+        </form>
+        -->
+        <div id="container"></div>
+        <script type="text/babel" src="app/main.js"></script>
+    </body>
+</html>
