@@ -1,6 +1,6 @@
 var CHUNK_SIZE = 10 * 1024 * 1024, // 10MB
     BUFFER = new Buffer(CHUNK_SIZE),
-    PORT = 3000,
+    PORT = 9000,
     IP = {},
     INTERNALS = {},
     EXPLORE_INTERVAL = 0,
