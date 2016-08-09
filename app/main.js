@@ -72,7 +72,7 @@ class UserList extends React.Component {
             </div>
         );
     }
-};
+}
 
 ReactDOM.render(
     <UserList />, document.getElementById('container')
